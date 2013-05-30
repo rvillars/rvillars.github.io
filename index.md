@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BigEndian
+title: Big Endian
 tagline: The JVM blog
 ---
 {% include JB/setup %}
