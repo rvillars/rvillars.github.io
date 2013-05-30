@@ -41,7 +41,6 @@ Here's a sample "posts list".
 {% for apost in site.posts %}
 
 {{ apost.title }}
-{{ apost.content }}
 
 {% endfor %}
 
