@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: BigEndian
+tagline: The JVM blog
 ---
 {% include JB/setup %}
 
