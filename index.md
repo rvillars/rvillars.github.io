@@ -7,14 +7,6 @@ tagline: The JVM blog
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-{% for post in site.posts %}
-    {% if post.excerpt %}
-        {{ post.excerpt | markdownify }}
-    {% else %}
-        {{ post.content }}
-    {% endif %}
-{% endfor %}
-
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
 ## Update Author Attributes
