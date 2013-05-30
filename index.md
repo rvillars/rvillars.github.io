@@ -42,8 +42,6 @@ Here's a sample "posts list".
 
 {{ post.title }}
 
-{{ post.excerpt }}
-
 {% endfor %}
 
 ## To-Do
