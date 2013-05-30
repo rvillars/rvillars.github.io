@@ -38,9 +38,10 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-{% for post in site.posts %}
+{% for apost in site.posts %}
 
-{{ post.title }}
+{{ apost.title }}
+{{ apost.content }}
 
 {% endfor %}
 
