@@ -39,8 +39,11 @@ Here's a sample "posts list".
 </ul>
 
 {% for post in site.posts %}
+
 {{ post.title }}
+
 {{ post.excerpt }}
+
 {% endfor %}
 
 ## To-Do
