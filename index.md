@@ -18,6 +18,7 @@ tagline: The JVM blog
       </div>
     </div>
   </div>
+  <hr class="bs-docs-separator"></hr>
 {% endfor %}
 
 
