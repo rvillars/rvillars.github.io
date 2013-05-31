@@ -5,6 +5,16 @@ tagline: The JVM blog
 ---
 {% include JB/setup %}
 
+<div class="hero-unit">
+  <h1>Heading</h1>
+  <p>Tagline</p>
+  <p>
+    <a class="btn btn-primary btn-large">
+      Learn more
+    </a>
+  </p>
+</div>
+
 {% for post in site.posts limit:10 %}
   <div class="bs-docs-example">
     <div><h2>{{ post.title }} <small>{{ post.tagline }}</small></h2></div>
