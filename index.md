@@ -7,7 +7,7 @@ tagline: The JVM blog
 
 {% for post in site.posts limit:10 %}
   <div class="post-preview">
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <h3>{{ post.title }}</h3><h4>{{ post.tagline }}</h4>
     <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
     {{ post.content | split:'<!--break-->' | first }}
     {% if post.content contains '<!--break-->' %}
