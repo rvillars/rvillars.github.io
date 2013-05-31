@@ -7,7 +7,7 @@ tagline: The JVM blog
 
 {% for post in site.posts limit:10 %}
   <div>
-    <div class="page-header"><h1>{{ post.title }}<small>{{ post.tagline }}</small></h1></div>
+    <div class="page-header"><h2>{{ post.title }} <small>{{ post.tagline }}</small></h2></div>
     <div class="date">{{ post.date | date: "%B %d, %Y" }}</div>
     <div class="content">
       {{ post.content | split:'<!--break-->' | first }}
