@@ -1,18 +1,11 @@
 ---
 layout: page
-title: Big Endian
-tagline: The JVM blog
 ---
 {% include JB/setup %}
 
 <div class="hero-unit">
-  <h1>Heading</h1>
-  <p>Tagline</p>
-  <p>
-    <a class="btn btn-primary btn-large">
-      Learn more
-    </a>
-  </p>
+  <h1>Big Endian</h1>
+  <p>The JVM Blog</p>
 </div>
 
 {% for post in site.posts limit:10 %}
