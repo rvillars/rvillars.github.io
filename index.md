@@ -8,7 +8,7 @@ layout: default
     <div class="span2">
       <img src="assets/images/cracking-eggs-laying-numbers-wallpaper.jpg" class="img-rounded">
     </div>
-    <div class="span8">
+    <div class="span4">
       <h1>Big Endian</h1>
       <p>The JVM Blog</p>
     </div>
