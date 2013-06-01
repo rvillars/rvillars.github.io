@@ -4,8 +4,15 @@ layout: default
 {% include JB/setup %}
 
 <div class="hero-unit">
-  <h1>Big Endian</h1>
-  <p>The JVM Blog</p>
+  <div class="row">
+    <div class="span2">
+      <img src="assets/images/cracking-eggs-laying-numbers-wallpaper.jpg" class="img-rounded">
+    </div>
+    <div class="span8">
+      <h1>Big Endian</h1>
+      <p>The JVM Blog</p>
+    </div>
+	</div>
 </div>
 
 {% for post in site.posts limit:10 %}
